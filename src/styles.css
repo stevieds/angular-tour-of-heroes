@@ -2,7 +2,7 @@
 
 * {
     font-family: 'Roboto', Arial, sans-serif;
-    color: #616161;
+    color: rgb(121, 86, 0);
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -43,7 +43,7 @@
   
   a {
     cursor: pointer;
-    color: #1976d2;
+    color: rgb(165, 118, 0);
     text-decoration: none;
   }
   
@@ -79,12 +79,18 @@
     cursor: pointer;
     background-color: goldenrod;
     color: white;
-    border: none;
+    border:2px solid goldenrod;
   }
   
   .button:hover, button:hover {
     opacity: 0.8;
     font-weight: normal;
+  }
+
+  button:focus {
+    border:2px solid rgba(218, 165, 32, 0.384);
+    outline:none;
+
   }
   
   .button:disabled, button:disabled {
